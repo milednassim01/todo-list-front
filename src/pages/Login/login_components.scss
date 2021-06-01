@@ -1,0 +1,43 @@
+.auth-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px;
+  .title {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Squada One ', sans-serif;
+    font-size: x-large;
+  }
+  .container-input {
+    margin: 4px auto;
+    span {
+      margin-top: 0.25rem;
+      font-size: 80%;
+      color:white;
+    }
+  }
+  .icon-input {
+    margin: 2px 7px;
+    color:$dark_blue;
+  }
+  .auth-buttons {
+    margin: 2px auto;
+    .main-button {
+      font-size: 10px;
+      background-color: $yellow;
+      margin: 5px 6px;
+    }
+    .secondary-button {
+      font-size: 10px;
+      color: white;
+      border-color: white;
+      margin: 5px 6px;
+    }
+  }
+}
